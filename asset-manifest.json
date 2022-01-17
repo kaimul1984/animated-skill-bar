@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animated-skill-bar/static/css/main.898e4d03.css",
+    "main.js": "/animated-skill-bar/static/js/main.c62767d7.js",
+    "index.html": "/animated-skill-bar/index.html",
+    "main.898e4d03.css.map": "/animated-skill-bar/static/css/main.898e4d03.css.map",
+    "main.c62767d7.js.map": "/animated-skill-bar/static/js/main.c62767d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.898e4d03.css",
+    "static/js/main.c62767d7.js"
+  ]
+}
