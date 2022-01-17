@@ -1,0 +1,13 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    .heading{
+        margin-bottom: 5rem;
+        color: #0b70cf;
+        border-bottom: 1px solid #000;
+    }
+}

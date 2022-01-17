@@ -1,0 +1,12 @@
+.container{
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #eff3f2;
+    @media (max-width:520px) {
+  width: 90vw;
+}
+}

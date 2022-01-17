@@ -1,0 +1,79 @@
+.child {
+  margin-bottom: 2rem;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left {
+      svg {
+        font-size: 3rem;
+        fill: #e34c26;
+      }
+    }
+    .right {
+      width: 50vw;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin-left: 1rem;
+      @media (max-width:520px) {
+  width: 90vw;
+}
+      h1 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .skill-bar {
+        width: 100%;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #e6e1dc;
+        border: 1px solid gray;
+        padding: 0.2rem;
+
+        .progress {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          overflow: hidden;
+          width: 0;
+          height: 100%;
+          opacity: 0;
+          transition: width .5s;
+          background: linear-gradient(
+            90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(27, 25, 25, 1) 0%,
+            rgba(223, 33, 31, 1) 4%,
+            rgba(233, 231, 48, 1) 41%,
+            rgba(244, 9, 39, 1) 99%
+          );
+          border-radius: 20px;
+          span {
+            line-height: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: #fff;
+            margin-left: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+  &:nth-child(2) :first-child svg {
+      fill: #264de4;
+  }
+ &:nth-child(3) :first-child svg{
+  fill:#f0db4f;
+}
+&:nth-child(4) :first-child svg{
+  fill:#00d8ff;
+}
+&:nth-child(5) :first-child svg{
+  fill:#42b883;
+}
+  
+}
